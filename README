@@ -23,7 +23,7 @@ INSTALL
 
 4. If you want short URIs and you're using Apache, make sure mod_rewrite is
    loaded and available in your Apache config, and that your document root
-   directory is configured to alllow .htaccess files.
+   directory is configured to allow .htaccess files.
 
 5. That's it, now just point your feed reader at the proper URI. If you've
    installed to http://mysite.com/gitfeeder, then your URI for repository
