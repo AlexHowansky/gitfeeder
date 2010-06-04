@@ -14,7 +14,7 @@ INSTALL
 2, Clone the gitfeeder code to the document root for your site:
 
    % cd /path/to/mysite/public
-   % git clone git@github.com:AlexHowansky/gitfeeder.git
+   % git clone git://github.com/AlexHowansky/gitfeeder.git
 
 3. Edit the config.php file and set your local preferences.
 
