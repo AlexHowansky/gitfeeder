@@ -1,0 +1,36 @@
+
+INSTALL
+-------
+
+1. If you don't already have ZendFramework, grab it and drop it somewhere
+   accessible to the web server user. The minimal packge is sufficient.
+   Keep this out of the document root if possible.
+
+   % cd /path/to/mysite
+   % wget http://framework.zend.com/releases/ZendFramework-1.10.5/ZendFramework-1.10.5-minimal.tar.gz
+   % tar xzf ZendFramework-1.10.5-minimal.tar.gz
+   % rm ZendFramework-1.10.5-minimal.tar.gz
+
+2, Clone the gitfeeder code to the document root for your site:
+
+   % cd /path/to/mysite/public
+   % git clone git@github.com:AlexHowansky/gitfeeder.git
+
+3. Edit the config.php file and set your local preferences.
+
+   % cd gitfeeder
+   % vi config.php
+
+4. If you want short URIs and you're using Apache, make sure mod_rewrite is
+   loaded and available in your Apache config, and that your document root
+   directory is configured to alllow .htaccess files.
+
+5. That's it, now just point your feed reader at the proper URI. If you've
+   installed to http://mysite.com/gitfeeder, then your URI for repository
+   "repo" and branch "branch" will be:
+
+   http://mysite.com/gitfeeder/index.php?r=repo&b=branch
+
+   Alternatively, if you've got short URIs enabled, you can just use:
+
+   http://mysite.com/gitfeeder/repo/branch
