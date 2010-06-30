@@ -11,7 +11,7 @@ INSTALL
    % tar xzf ZendFramework-1.10.5-minimal.tar.gz
    % rm ZendFramework-1.10.5-minimal.tar.gz
 
-2, Clone the gitfeeder code to the document root for your site:
+2. Clone the gitfeeder code to the document root for your site:
 
    % cd /path/to/mysite/public
    % git clone git://github.com/AlexHowansky/gitfeeder.git
